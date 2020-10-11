@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {News} from '../models/news';
+import { News } from '../models/news';
 import { NewsService } from '../services/news.service';
 
 @Component({
@@ -9,7 +9,7 @@ import { NewsService } from '../services/news.service';
 })
 export class DashboardComponent implements OnInit {
 
-  public errorMessage: string = '';
+  public errorMessage = '';
 
   private newsList: Array<News>;
 
@@ -17,17 +17,17 @@ export class DashboardComponent implements OnInit {
 
   ngOnInit() {
     this.newsService.getTrendingNews()
-    .subscribe(response => {
-      if (response["status"] === "ok"){
-        this.newsList = [...response["articles"]];
-      }
-    },
-    error => {
-      console.log(error);
-      if(error.status === 404){
-        this.errorMessage = 'Unable to access news server to fetch news';
-      }
-    })
+      .subscribe(response => {
+        if (response['status'] === 'ok') {
+          this.newsList = [...response['articles']];
+        }
+      },
+        error => {
+          console.log(error);
+          if (error.status === 404) {
+            this.errorMessage = 'Unable to access news server to fetch news';
+          }
+        });
   }
 
 }

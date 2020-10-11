@@ -11,7 +11,8 @@
   <hr/>
   <mat-card-content class="m-3">
     <p class="author mb-0">{{newsItem.author}}</p>
-    <small class="font-italic text-muted" *ngIf="newsItem.source.name">Source: {{newsItem.source.name}}</small>
+    <small class="font-italic text-muted"
+     *ngIf="newsItem.source != null && newsItem.source.name != null">Source: {{newsItem.source.name}}</small>
     <h6 class="description my-3">{{newsItem.description}}</h6>
   </mat-card-content>
   <mat-card-actions class="d-flex justify-content-end m-3 mt-4">

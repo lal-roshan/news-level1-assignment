@@ -17,12 +17,11 @@ export class HeaderComponent implements OnInit {
   ngOnInit() {
   }
 
-  toggleCollapse(){
-    let navbarToggler = document.getElementById('navbarToggler');
-    if(navbarToggler.classList.contains('collapse')){
+  toggleCollapse() {
+    const navbarToggler = document.getElementById('navbarToggler');
+    if (navbarToggler.classList.contains('collapse')) {
       navbarToggler.classList.remove('collapse');
-    }
-    else{
+    } else {
       navbarToggler.classList.add('collapse');
     }
   }

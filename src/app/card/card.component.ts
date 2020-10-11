@@ -11,30 +11,28 @@ export class CardComponent implements OnInit {
 
   @Input() public newsItem: News = new News();
 
-  public confirmationMessage: string = '';
+  public confirmationMessage = '';
 
-  public errorMessage: string = '';
+  public errorMessage = '';
 
   constructor(private newsService: NewsService) { }
 
   ngOnInit() {
   }
 
-  addNewsToReadLater(newsItem){
+  addNewsToReadLater(newsItem) {
     this.newsService.addNews(newsItem)
-    .subscribe(response => {
-      if(response){
-        this.confirmationMessage = 'This News Article is Bookmarked';
-      }
-    },
-    error => {
-      if(error.status === 404){
-        this.errorMessage = 'Unable to access news server to add this news item';
-      }
-      else{
-        this.errorMessage = 'Internal Server Error, Please Try Again Later';
-      }
-    });
+      .subscribe(response => {
+        if (response) {
+          this.confirmationMessage = 'This News Article is Bookmarked';
+        }
+      },
+        error => {
+          if (error.status === 404) {
+            this.errorMessage = 'Unable to access news server to add this news item';
+          } else {
+            this.errorMessage = 'Internal Server Error, Please Try Again Later';
+          }
+        });
   }
-
 }
