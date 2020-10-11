@@ -14,7 +14,7 @@ export class NewsService {
   public trending_news_api_url = 'https://newsapi.org/v2/top-headlines?country=in&apikey='
     + this.apiKey + '&page=1/';
 
-  private readonly bookmarks_url = 'http://localhost:3000/news/';
+  private readonly bookmarks_url = 'http://localhost:3000/api/v1/news';
 
   // inject the HttpClient dependency that will be used to make http request
   constructor(private httpClient: HttpClient) { }

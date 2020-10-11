@@ -125,6 +125,36 @@
       "publishedAt": "2020-10-11T12:13:27Z",
       "content": "The fastest possible speed of sound has been recorded for the first time which is about 36 km per second.\r\nThe result is around twice as fast as the speed of sound in diamond, the hardest known mater… [+2765 chars]",
       "id": 9
+    },
+    {
+      "source": {
+        "id": "the-hindu",
+        "name": "The Hindu"
+      },
+      "author": "Special Correspondent",
+      "title": "Coronavirus | Vaccine priority based on occupational hazards, risk of exposure, says Harsh Vardhan - The Hindu",
+      "description": "AYUSH remedies have proven immuno-modulatory, anti-viral properties, says Union Health Minister.",
+      "url": "https://www.thehindu.com/news/national/coronavirus-roll-out-of-feluda-test-expected-in-next-few-weeks-says-harsh-vardhan/article32826642.ece",
+      "urlToImage": "https://www.thehindu.com/news/national/20p5sn/article32826641.ece/ALTERNATES/LANDSCAPE_615/HarshVardhan",
+      "publishedAt": "2020-10-11T13:20:01Z",
+      "content": "Union Health Minister Harsh Vardhan said on Sunday that his Ministry will soon roll out the FELUDA paper strip test for SARS-CoV-2 diagnosis. This has been developed by CSIR-IGIB and has been approve… [+4846 chars]",
+      "apiId": "v1",
+      "id": 10
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Livemint"
+      },
+      "author": "Aparna Banerjea",
+      "title": "Flipkart: Students from tier 2, 3 cities can learn supply chain management and get paid - Mint",
+      "description": "For this, Flipkart is working with educational institutes across 21 locations.Upon joining, students will be trained in various aspects of supply chain management while following strict practices that prioritise their health and safety",
+      "url": "https://www.livemint.com/companies/news/flipkart-students-from-tier-2-3-cities-can-learn-supply-chain-management-and-get-paid-11602417920106.html",
+      "urlToImage": "https://images.livemint.com/img/2020/10/11/600x338/2020-09-16T122855Z_2125796923_RC2OZI9AEGFQ_RTRMADP_3_WALMART-INDIA-IPO_1602348508265_1602348530354_1602420874180.JPG",
+      "publishedAt": "2020-10-11T12:59:24Z",
+      "content": "As Flipkart's annual Big Billion Day sale approaches, the e-commerce giant announced a 45-day paid internship programme for undergraduate students from Tier II cities and beyond to offer students an … [+3140 chars]",
+      "apiId": "v1",
+      "id": 11
     }
   ]
 }
