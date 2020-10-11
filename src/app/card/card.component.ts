@@ -23,8 +23,7 @@ export class CardComponent implements OnInit {
   addNewsToReadLater(newsItem){
     this.newsService.addNews(newsItem)
     .subscribe(response => {
-      console.log(response);
-      if(response["status"] === "ok"){
+      if(response){
         this.confirmationMessage = 'This News Article is Bookmarked';
       }
     },

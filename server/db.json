@@ -97,6 +97,34 @@
       "publishedAt": "2020-10-03T16:12:00Z",
       "content": "Salman Khan returned as host for the popular reality show Bigg Boss 14 with a fresh list of contestants that includes faces such as TV couple Rubina Dilaik and Abhinav Shukla, actor Eijaz Khan, Baalv… [+9340 chars]",
       "id": 7
+    },
+    {
+      "source": {
+        "id": "the-times-of-india",
+        "name": "The Times of India"
+      },
+      "author": "TIMESOFINDIA.COM",
+      "title": "SRH vs RR Live Score: Royals lose Buttler, Smith, Stokes early in the run chase - Times of India",
+      "description": "Cricket News: Check SRH vs RR IPL live score updates, scorecard, ball-by-ball commentary, live streaming and highlights on Times of India",
+      "url": "https://timesofindia.indiatimes.com/sports/cricket/ipl/top-stories/srh-vs-rr-live-score-archer-gets-rid-of-warner/articleshow/78601596.cms",
+      "urlToImage": "https://static.toiimg.com/thumb/msid-78603897,width-1070,height-580,imgsize-675558,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
+      "publishedAt": "2020-10-11T12:22:00Z",
+      "content": "1 change: Shankar comes in for Samad Check our full lineup #SRHvRR #OrangeArmy #KeepRising https://t.co/Qb55JbKISh\r\n— SunRisers Hyderabad (@SunRisers) 1602408826000",
+      "id": 8
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "http://www.newsgram.com/"
+      },
+      "author": null,
+      "title": "Scientists Record Fastest Possible Speed of Sound For the First Time - http://www.newsgram.com/",
+      "description": "The fastest possible speed of sound has been recorded for the first time which is about 36 km per second.The result is around twice as",
+      "url": "https://www.newsgram.com/scientists-record-fastest-possible-speed-sound/",
+      "urlToImage": "https://i0.wp.com/www.newsgram.com/wp-content/uploads/2020/10/guillaume-de-germain-UdB_8NYVAdg-unsplash1.jpg",
+      "publishedAt": "2020-10-11T12:13:27Z",
+      "content": "The fastest possible speed of sound has been recorded for the first time which is about 36 km per second.\r\nThe result is around twice as fast as the speed of sound in diamond, the hardest known mater… [+2765 chars]",
+      "id": 9
     }
   ]
 }

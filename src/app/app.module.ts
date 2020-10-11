@@ -11,7 +11,8 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { CardComponent } from './card/card.component';
 import { HttpClientModule} from '@angular/common/http';
 import { MatCardModule } from '@angular/material/card';
-import { MatButtonModule } from '@angular/material/button'; 
+import { MatButtonModule } from '@angular/material/button';
+import { FooterComponent } from './footer/footer.component'; 
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { MatButtonModule } from '@angular/material/button';
     HeaderComponent,
     DashboardComponent,
     CardComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
