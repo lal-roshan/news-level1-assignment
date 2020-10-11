@@ -1,0 +1,29 @@
+mat-card{
+    background: whitesmoke;
+}
+
+mat-card-title{
+    font-size: x-large !important;
+}
+
+img{
+    max-height: 80vh;
+    width: 45vw;
+}
+
+.author{
+    font-weight: normal !important;
+}
+
+.description{
+    font-weight: lighter;
+}
+
+.description::first-letter{
+    font-size: x-large;
+    font-weight: 400;
+}
+
+.read-later{
+    background: #f47541;
+}
