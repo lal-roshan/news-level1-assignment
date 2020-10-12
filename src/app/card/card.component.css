@@ -7,8 +7,10 @@ mat-card-title{
 }
 
 img{
+    padding: 2px;
     max-height: 80vh;
     width: 45vw;
+    border: 2px solid gainsboro;
 }
 
 .author{
@@ -26,4 +28,9 @@ img{
 
 .read-later{
     background: #f47541;
+}
+
+.read-later:hover{
+    background: #cc3d05;
+    color:whitesmoke;
 }

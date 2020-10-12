@@ -155,6 +155,51 @@
       "content": "As Flipkart's annual Big Billion Day sale approaches, the e-commerce giant announced a 45-day paid internship programme for undergraduate students from Tier II cities and beyond to offer students an … [+3140 chars]",
       "apiId": "v1",
       "id": 11
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "The Indian Express"
+      },
+      "author": "Reuters",
+      "title": "China’s Qingdao orders city-wide COVID-19 testing following new infections - The Indian Express",
+      "description": "China's Qingdao city reported six new COVID-19 cases and six asymptomatic cases as of late Oct. 11. Most of the cases were linked to the Qingdao Chest Hospital.",
+      "url": "https://indianexpress.com/article/coronavirus/chinas-qingdao-orders-city-wide-covid-19-testing-following-new-infections/",
+      "urlToImage": "https://images.indianexpress.com/2020/10/AP20285317513443.jpg",
+      "publishedAt": "2020-10-12T02:18:48Z",
+      "content": "By: Reuters | Beijing | \r\nOctober 12, 2020 7:48:48 am\r\nA woman and a child wearing face masks to help curb the spread of the coronavirus watch a water fountain at a shopping mall in Beijing (AP)China… [+1692 chars]",
+      "apiId": "v1",
+      "id": 12
+    },
+    {
+      "source": {
+        "id": "google-news",
+        "name": "Google News"
+      },
+      "author": null,
+      "title": "Rafael Nadal's 'Moon Landing' Among Sports' Greatest All-Time Records - ATP Tour",
+      "description": null,
+      "url": "https://news.google.com/__i/rss/rd/articles/CBMiSWh0dHBzOi8vd3d3LmF0cHRvdXIuY29tL2VuL25ld3MvbmFkYWwtZ3JlYXQtc3BvcnRpbmctcmVjb3Jkcy1vY3RvYmVyLTIwMjDSAQA?oc=5",
+      "urlToImage": null,
+      "publishedAt": "2020-10-11T23:33:57Z",
+      "content": null,
+      "apiId": "v1",
+      "id": 13
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Firstpost"
+      },
+      "author": null,
+      "title": "NEET Result 2020 LIVE Updates: Scores expected by Mo.. claims report; answer keys, details on ntaneet.nic.in - Firstpost",
+      "description": "NEET Result 2020 LIVE Updates: As per last year’s cut off, students who secured 701 marks or above got the first rank. Those who secured marks between 690 and 681 were ranked between 20 and 88\r\n\r\n Watch LIVE News, Latest Updates, Live blog, Highlights and Liv…",
+      "url": "https://www.firstpost.com/india/neet-result-2020-live-update-check-nta-results-date-and-time-online-ntaneet-nic-in-toppers-rank-counselling-latest-news-today-8900751.html",
+      "urlToImage": "https://images.firstpost.com/wp-content/uploads/2020/06/1592580727_indian-students-exam-1024x576.jpg",
+      "publishedAt": "2020-10-12T06:24:53Z",
+      "content": "NEET Result 2020 LIVE Updates: As per last years cut off, students who secured 701 marks or above got the first rank. Those who secured marks between 690 and 681 were ranked between 20 and 88\r\nNEET R… [+2350 chars]",
+      "apiId": "v1",
+      "id": 14
     }
   ]
 }

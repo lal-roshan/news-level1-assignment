@@ -11,7 +11,7 @@ export class DashboardComponent implements OnInit {
 
   public errorMessage = '';
 
-  private newsList: Array<News>;
+  public newsList: Array<News> = [];
 
   constructor(private newsService: NewsService) { }
 
@@ -29,5 +29,4 @@ export class DashboardComponent implements OnInit {
           }
         });
   }
-
 }

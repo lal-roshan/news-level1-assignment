@@ -1,5 +1,11 @@
 <div class="container my-5">
-  <div *ngFor="let newsItem of newsList" class="m-2">
-    <app-card [newsItem]="newsItem"></app-card>
-  </div>
+    <div *ngIf="newsList != undefined && newsList.length > 0;else elseBlock">
+        <div *ngFor="let newsItem of newsList" class="m-2">
+            <app-card [newsItem]="newsItem"></app-card>
+        </div>
+    </div>
+    <ng-template #elseBlock>
+        <h5>No News Available!!</h5>
+    </ng-template>
 </div>
+<!-- <app-card *ngFor="let item of newsList" [newsItem]="item" class="container m-2 my-5"></app-card> -->

@@ -9,7 +9,7 @@ import { NewsService } from '../services/news.service';
 })
 export class CardComponent implements OnInit {
 
-  @Input() public newsItem: News = new News();
+  @Input() public newsItem: News;
 
   public confirmationMessage = '';
 
