@@ -8,9 +8,15 @@ mat-card-title{
 
 img{
     padding: 2px;
-    max-height: 80vh;
-    width: 45vw;
+    height: auto;
+    width: 100%;
     border: 2px solid gainsboro;
+}
+
+@media only screen and (min-width: 991px){
+    img{
+        max-width: 45vw;
+    }
 }
 
 .author{

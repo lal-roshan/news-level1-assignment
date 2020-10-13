@@ -1,11 +1,17 @@
-<div class="container my-5">
+<div class="container m-auto">
     <div *ngIf="newsList != undefined && newsList.length > 0;else elseBlock">
-        <div *ngFor="let newsItem of newsList" class="m-2">
+        <div *ngFor="let newsItem of newsList" class="m-2 my-4">
             <app-card [newsItem]="newsItem"></app-card>
         </div>
     </div>
     <ng-template #elseBlock>
-        <h5>No News Available!!</h5>
+        <div class="noNews d-flex flex-column">
+            <span class="fa-stack fa-3x m-auto">
+                <i class="far fa-newspaper fa-stack-1x"></i>
+                <i class="far fa-ban fa-stack-2x"></i>
+            </span>
+            <h5 class="m-auto">No News Available!!</h5>
+        </div>
     </ng-template>
 </div>
 <!-- <app-card *ngFor="let item of newsList" [newsItem]="item" class="container m-2 my-5"></app-card> -->

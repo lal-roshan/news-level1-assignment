@@ -1,1 +1,17 @@
 /* define style rules for app-component */
+.newsContent{
+    width:100%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+app-dashboard{
+    display: flex;
+    flex-grow: 1;
+}
+
+app-header, app-dashboard, app-footer{
+    flex-shrink: 0;
+}
