@@ -11,11 +11,14 @@
   <hr/>
   <mat-card-content class="m-3">
     <p class="author mb-0">{{newsItem.author}}</p>
-    <small class="font-italic text-muted"
-     *ngIf="newsItem.source != null && newsItem.source.name != null">Source: {{newsItem.source.name}}</small>
+    <p class="font-italic text-muted source"
+     *ngIf="newsItem.source != null && newsItem.source.name != null">Source: {{newsItem.source.name}}</p>
     <h6 class="description my-3">{{newsItem.description}}</h6>
   </mat-card-content>
   <mat-card-actions class="d-flex justify-content-end m-3 mt-4">
     <button mat-raised-button class="read-later" (click)="addNewsToReadLater(newsItem)">Read Later</button>
   </mat-card-actions>
+  <small *ngIf="confirmationMessage !== ''" class="d-flex justify-content-end mt-4 align-items-center m-3">
+    <span class="material-icons mr-2 text-success">check_circle</span>{{confirmationMessage}}
+  </small>
 </mat-card>

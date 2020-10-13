@@ -200,6 +200,66 @@
       "content": "NEET Result 2020 LIVE Updates: As per last years cut off, students who secured 701 marks or above got the first rank. Those who secured marks between 690 and 681 were ranked between 20 and 88\r\nNEET R… [+2350 chars]",
       "apiId": "v1",
       "id": 14
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "NDTV News"
+      },
+      "author": null,
+      "title": "Media Debating Pending Cases \"Damaging\": Attorney General To Top Court - NDTV",
+      "description": "Television and print media discussions of matters pending before the court influence judges' thinking and do great damage to the judicial institution, Attorney General KK Venugopal said today.",
+      "url": "https://www.ndtv.com/india-news/media-debating-pending-cases-damaging-attorney-general-to-supreme-court-2309412",
+      "urlToImage": "https://c.ndtvimg.com/2019-11/npcbm898_supreme-court-ndtv_625x300_26_November_19.jpg",
+      "publishedAt": "2020-10-13T10:27:56Z",
+      "content": "The Supreme Court has sought Attorney General KK Venugopal's help to look into comments against judges.\r\nNew Delhi: Television and print media discussions of matters pending before the court influenc… [+1274 chars]",
+      "apiId": "v1",
+      "id": 15
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Livemint"
+      },
+      "author": "Surajit Dasgupta",
+      "title": "Wipro announces ₹9,500 crore buyback plan at ₹400 per share - Livemint",
+      "description": "Wipro shares today closed 0.5% lower at  ₹375.The buyback price is at a 6.6% premium to today's closing price",
+      "url": "https://www.livemint.com/companies/news/wipro-announces-rs-9-500-crore-share-buyback-plan-11602577282074.html",
+      "urlToImage": "https://images.livemint.com/img/2020/10/13/600x338/2fd2f83e-08c2-11eb-bdd2-7295074159b1_1602577295644_1602577329427.jpg",
+      "publishedAt": "2020-10-13T10:14:44Z",
+      "content": "The board of IT services company Wipro today approved a buyback proposal worth 9,500 crore. Wipro plans to purchase of 23.75 crore shares at 400 per equity share for an aggregate amount not exceeding… [+2167 chars]",
+      "apiId": "v1",
+      "id": 16
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Teslarati"
+      },
+      "author": "https://www.facebook.com/13ericralph31",
+      "title": "SpaceX ships upgraded cargo spacecraft to Florida for first orbital Dragon rendezvous - Teslarati",
+      "description": "SpaceX says it’s shipped the first upgraded Dragon 2 cargo spacecraft to Florida, opening the door for the first simultaneous spaceflight of two Dragons. More or less a modified version of SpaceX’s rapidly maturing Crew Dragon spacecraft, the company says tha…",
+      "url": "https://www.teslarati.com/spacex-upgraded-cargo-spacecraft-orbital-dragon-rendezvous/",
+      "urlToImage": "https://www.teslarati.com/wp-content/uploads/2020/10/CRS-21-Cargo-Dragon-2-Hawthorne-Oct-2020-SpaceX-1-crop-c-1024x546.jpg",
+      "publishedAt": "2020-10-13T09:17:29Z",
+      "content": "SpaceX says it’s shipped the first upgraded Dragon 2 cargo spacecraft to Florida, opening the door for the first simultaneous spaceflight of two Dragons.\r\nMore or less a modified version of SpaceX’s … [+4687 chars]",
+      "apiId": "v1",
+      "id": 17
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "NDTV News"
+      },
+      "author": "Tasneem Akolawala",
+      "title": "Soundcore Liberty Air 2 TWS Earbuds With Four Microphones Launched in India - NDTV",
+      "description": "Soundcore Liberty Air 2 TWS earbuds are on sale via Flipkart and other leading stores. They have been made available in Classy White and Black options.",
+      "url": "https://gadgets.ndtv.com/audio/news/soundcore-liberty-air-2-price-rs-7999-india-launch-features-2309458",
+      "urlToImage": "https://i.gadgets360cdn.com/large/soundcore_liberty_air_2_1602580316635.jpg",
+      "publishedAt": "2020-10-13T09:16:57Z",
+      "content": "Soundcore Liberty Air 2 wireless earbuds have been launched by Soundcore by Anker, expanding its portfolio in the Indian market. These earbuds come with diamond-inspired drivers and four microphones … [+2100 chars]",
+      "apiId": "v1",
+      "id": 18
     }
   ]
 }
