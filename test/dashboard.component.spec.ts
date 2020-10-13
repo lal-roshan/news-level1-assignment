@@ -94,8 +94,8 @@ describe('DashboardComponent', () => {
 it('should contain card component for displaying trending news',fakeAsync(()=>{
   spyOn(newsService,'getTrendingNews').and.callThrough();//.and.returnValue(of(newsItems));
   fixture.detectChanges();
-  let newsCard = fixture.debugElement.nativeElement.querySelectorAll('app-card');
-  // let newsCard = fixture.debugElement.query(By.css('app-card'));
+  
+  let newsCard = fixture.debugElement.query(By.css('app-card'));
   expect(newsCard).toBeTruthy();
 }))
 
