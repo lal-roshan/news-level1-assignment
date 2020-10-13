@@ -9,17 +9,22 @@ import { NewsService } from '../services/news.service';
 })
 export class CardComponent implements OnInit {
 
+  /// newsItem object representing the news details of the current card component
   @Input() public newsItem: News;
 
+  /// Confirmation message representing the message on news addition to read later
   public confirmationMessage = '';
 
+  /// Error message representing the message on error
   public errorMessage = '';
 
+  /// Constructor injecting news service
   constructor(private newsService: NewsService) { }
 
   ngOnInit() {
   }
 
+  /// Method for adding the news to read later
   addNewsToReadLater(newsItem) {
     this.newsService.addNews(newsItem)
       .subscribe(response => {

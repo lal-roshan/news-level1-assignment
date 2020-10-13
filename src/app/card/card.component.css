@@ -13,9 +13,11 @@ img{
     border: 2px solid gainsboro;
 }
 
+/* For avoiding stretching out of images in large screens */
 @media only screen and (min-width: 991px){
     img{
         max-width: 45vw;
+        max-height: 50vh;;
     }
 }
 

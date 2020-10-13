@@ -7,16 +7,18 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
+  /// Property holding the title name
   @Input() public title;
-  @Input() public favoriteCount;
 
-  isCollapsed = true;
+  ///Property representing the count of favorites items
+  @Input() public favoriteCount;
 
   constructor() { }
 
   ngOnInit() {
   }
 
+  /// Method for toggling the menu items display in small screens
   toggleCollapse() {
     const navbarToggler = document.getElementById('navbarToggler');
     if (navbarToggler.classList.contains('collapse')) {
@@ -25,5 +27,4 @@ export class HeaderComponent implements OnInit {
       navbarToggler.classList.add('collapse');
     }
   }
-
 }

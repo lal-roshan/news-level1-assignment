@@ -1,9 +1,11 @@
 <div class="container m-auto">
+    <!-- Show the news in the list in cards for each news -->
     <div *ngIf="newsList != undefined && newsList.length > 0;else elseBlock">
         <div *ngFor="let newsItem of newsList" class="m-2 my-4">
             <app-card [newsItem]="newsItem"></app-card>
         </div>
     </div>
+    <!-- If there are no news available show the following section -->
     <ng-template #elseBlock>
         <div class="noNews d-flex flex-column">
             <span class="fa-stack fa-3x m-auto">
@@ -14,4 +16,3 @@
         </div>
     </ng-template>
 </div>
-<!-- <app-card *ngFor="let item of newsList" [newsItem]="item" class="container m-2 my-5"></app-card> -->

@@ -9,16 +9,24 @@ import { NewsService } from '../services/news.service';
 })
 export class DashboardComponent implements OnInit {
 
+  /// Error Message representing the message on some error
   public errorMessage = '';
 
+  /// newsList property representing all the newses read from the service
   public newsList: Array<News> = [];
 
+  /// Constructor injecting news service
   constructor(private newsService: NewsService) { }
 
   ngOnInit() {
+    /// Fetch all the news available on the component initialization
     this.newsService.getTrendingNews()
       .subscribe(response => {
-        if (response['status'] === 'ok') {
+
+        /// If there are any news in the response
+        if (response['articles'] !== undefined &&
+            response['articles'] !== undefined &&
+            response['articles'].length > 0) {
           this.newsList = [...response['articles']];
         }
       },

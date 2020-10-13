@@ -1,4 +1,5 @@
 /* define style rules for app-component */
+/* Styles for making footer stay at bottem even if there are no contents */
 .newsContent{
     width:100%;
     min-height: 100%;
@@ -7,6 +8,7 @@
     align-items: stretch;
 }
 
+ /* The flex grow set to 1 makes the component to fill up the available space */
 app-dashboard{
     display: flex;
     flex-grow: 1;

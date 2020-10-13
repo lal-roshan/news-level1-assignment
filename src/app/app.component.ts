@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  // declare title property with value `StackRoute Times`
+  /// Property representing the title of the website
   public title = 'StackRoute Times';
   public favoriteCount = 0;
 }
